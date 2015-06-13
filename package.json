@@ -1,0 +1,12 @@
+{
+  "name": "poc_clarity",
+  "version": "0.0.1",
+  "description": "Example module",
+  "author": "Subbu",
+  "dependencies": {
+    "grunt": "0.4.1",
+	"packer-module": "~0.0.5",
+	"packer-unit": "~0.0.3",
+	"packer-e2e": "~0.0.4"
+  }
+}

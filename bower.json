@@ -1,0 +1,16 @@
+{
+  "name": "poc_clarity",
+  "version": "0.0.1",
+  "dependencies": {
+    "mobile-angular-ui": "~1.1.0-beta.29"
+  },
+  "devDependencies": {
+    "angular": "1.2.18",
+    "angular-route": "1.2.18",
+    "angular-mocks": "1.2.18",
+    "bootstrap": "3.1.1",
+    "angular-animate": "1.2.18",
+    "angular-bootstrap": "0.10.0",
+    "capapp-style": "https://github.com/FS-CodingNight/capapp-style.git#master"
+  }
+}
