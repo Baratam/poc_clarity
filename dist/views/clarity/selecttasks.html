@@ -116,7 +116,7 @@
 		
 		<div class="" ng-repeat="days in selctdTaskItem.weekdays">
 		<div class= "row " ng-show="days.MOND">
-	<div class="col-xs-6 "  >{{days.MOND}} </div> <div class="col-xs-6 "> <input type="number" numbers-only="numbers-only" id="MOND{{selctdTaskItem.taskcode}}" SIZE ="1" ng-model="days.MonHours" ng-keyup="enteredHours()"/></div></div>
+	<div class="col-xs-6 "  >{{days.MOND}} </div> <div class="col-xs-6 "><style>input[type="number"] {   width:50px; } <input type="number" numbers-only="numbers-only" id="MOND{{selctdTaskItem.taskcode}}" SIZE ="1" ng-model="days.MonHours" ng-keyup="enteredHours()"/>  </style></div></div>
 	
 	<div class= "row" ng-show="days.TUES">
 	<div class="col-xs-6 "  >{{days.TUES}} </div> <div class="col-xs-6 ">  <input type="number" numbersOnly id="TUES{{selctdTaskItem.taskcode}}" SIZE ="1" ng-model="days.TueHours" ng-keyup="enteredHours()"/></div>
